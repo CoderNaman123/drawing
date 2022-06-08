@@ -1,0 +1,81 @@
+
+body
+{
+    background-color: rgba(255, 255, 0, 0.737);
+}
+h1
+{
+    padding-left: 100px;
+    background-color: blue;
+    font-family: 'Bangers', cursive;
+    height: 60px;
+    padding-top: 10px;
+    letter-spacing: 3px;
+    color: white;
+}
+#show_sketch
+{
+    float: right;
+    background-color: rgb(251, 255, 0) !important;
+    color: black !important;
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3px;
+    border: 2px solid rgb(255, 255, 255) ;
+      font-size: 15px;
+}
+
+p{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+
+}
+
+
+
+canvas
+{
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 10px 10px 30px violet}
+    to{ box-shadow: 15px 15px 30px brown;}
+}
+
+#sketch
+{
+    color: blueviolet;
+    font-weight: bolder !important;
+}
+
+#score
+{
+    float: left;
+    margin-left: 30px;
+    font-family: 'Tapestry', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    border-bottom: 5px dashed blue;
+    width: 100px;
+}
+
+#time
+{
+    float: right;
+    margin-right: 50px;
+    font-family: 'Tapestry', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    border-bottom: 5px dashed blue;
+    width: 100px;
+}
